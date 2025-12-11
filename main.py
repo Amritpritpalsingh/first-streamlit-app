@@ -51,7 +51,7 @@ if st.button("About App"):
     st.text("Built with Streamlit")
     st.text("Thanks to Streamlit")
 
-st.head("By Amritpirtpalsingh")
+st.text("By Amritpirtpalsingh")
 
         
 
