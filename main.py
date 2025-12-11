@@ -10,7 +10,7 @@ st.write("Data Analysis")
 
 st.subheader("Data Analysys Using Python & Streamlit")
 
-upload = st.file_uploader("Upload Ypur Dataset (In CSV Format)")
+upload = st.file_uploader("Upload Your Dataset (In CSV Format)")
 
 if upload is not None:
     data = pd.read_csv(upload)
@@ -46,8 +46,8 @@ if(upload is not None):
             st.text("Ok No Problem")
 
 if(upload is not None):
-    if(st.checkbox("Summary of the Dataset")):
-        st.write(data.describe(include=all))
+    if(st.checkbox("Summary of Numaric the Dataset")):
+        st.write(data.describe())
 
 if st.button("About App"):
     st.text("Built with Streamlit")
