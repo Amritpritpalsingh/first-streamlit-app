@@ -50,8 +50,8 @@ if(upload is not None):
 if st.button("About App"):
     st.text("Built with Streamlit")
     st.text("Thanks to Streamlit")
-if(st.checkbox("By")):
-    st.success("Amrit Singh")
+
+st.head("By Amritpirtpalsingh")
 
         
 
