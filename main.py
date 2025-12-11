@@ -6,9 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-st.write("Data Analysis")
-
-st.subheader("Data Analysys Using Python & Streamlit")
+st.subheader("Data Analysis Using Python & Streamlit")
 
 upload = st.file_uploader("Upload Your Dataset (In CSV Format)")
 
